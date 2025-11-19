@@ -1,4 +1,10 @@
 (sym_lib_table
   (version 7)
   (lib (name "ESP32-C3-WROOM-02-N4")(type "KiCad")(uri "${KIPRJMOD}/library/symbols/ESP32-C3-WROOM-02-N4.kicad_sym")(options "")(descr ""))
+  (lib (name "GSPTS003907")(type "KiCad")(uri "${KIPRJMOD}/library/symbols/GSPTS003907.kicad_sym")(options "")(descr ""))
+  (lib (name "AP7366EA-33W5-7")(type "KiCad")(uri "${KIPRJMOD}/library/symbols/AP7366EA-33W5-7.kicad_sym")(options "")(descr ""))
+  (lib (name "AM3DS-0505SH30LPZ")(type "KiCad")(uri "${KIPRJMOD}/library/symbols/AM3DS-0505SH30LPZ.kicad_sym")(options "")(descr ""))
+  (lib (name "CL31B106KAHNNNE")(type "KiCad")(uri "${KIPRJMOD}/library/symbols/CL31B106KAHNNNE.kicad_sym")(options "")(descr ""))
+  (lib (name "C1808X102K402T")(type "KiCad")(uri "${KIPRJMOD}/library/symbols/C1808X102K402T.kicad_sym")(options "")(descr ""))
+  (lib (name "WIP322512A-6R8MLDG")(type "KiCad")(uri "${KIPRJMOD}/library/symbols/WIP322512A-6R8MLDG.kicad_sym")(options "")(descr ""))
 )

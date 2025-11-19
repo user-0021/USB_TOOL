@@ -1,0 +1,135 @@
+(footprint "AM3DS-0505SH30LPZ"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -0.06 -10.97 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "50e898b1-4350-40f0-9bd7-271956e8eeac")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "名称未設定"
+		(at -0.06 -9.47 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "50b56da0-a1c3-48d7-acf9-378e92e1ec78")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e16b810c-94e1-442d-87e2-006f7b38da13")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c70ee4b2-febf-44d4-a508-8157d8665ee7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -9.825 -3.525)
+		(end 9.825 3.525)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "82050e5b-a856-4e76-88fe-b19f24e169e9")
+	)
+	(fp_rect
+		(start -10 -3.75)
+		(end 10 3.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "ee7c40ec-c9d9-4bda-a67d-e8c78526239b")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.06 -7.97 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "74958bb8-58ff-4e20-a180-6dd2dc06c18a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -7.62 -2.54)
+		(size 1.5 1.5)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "33746b98-8543-4377-83b7-8a04c719a2ce")
+	)
+	(pad "2" thru_hole circle
+		(at -5.08 -2.54)
+		(size 1.5 1.5)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6ae033bc-8bac-4b95-8fe2-759636b1d77b")
+	)
+	(pad "5" thru_hole circle
+		(at 2.54 -2.54)
+		(size 1.5 1.5)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3b4b4906-b0c2-4365-80ab-1016f84ec1df")
+	)
+	(pad "7" thru_hole circle
+		(at 7.62 -2.54)
+		(size 1.5 1.5)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "81bb5356-489a-42f4-ae8d-bf5dae6658a9")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/library/models/AM3DS-0505SH30LPZ.step"
+		(offset
+			(xyz -9.825 3.525 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 90)
+		)
+	)
+)
