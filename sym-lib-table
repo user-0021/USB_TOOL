@@ -7,4 +7,8 @@
   (lib (name "CL31B106KAHNNNE")(type "KiCad")(uri "${KIPRJMOD}/library/symbols/CL31B106KAHNNNE.kicad_sym")(options "")(descr ""))
   (lib (name "C1808X102K402T")(type "KiCad")(uri "${KIPRJMOD}/library/symbols/C1808X102K402T.kicad_sym")(options "")(descr ""))
   (lib (name "WIP322512A-6R8MLDG")(type "KiCad")(uri "${KIPRJMOD}/library/symbols/WIP322512A-6R8MLDG.kicad_sym")(options "")(descr ""))
+  (lib (name "CL21B105KBFNNNE")(type "KiCad")(uri "${KIPRJMOD}/library/symbols/CL21B105KBFNNNE.kicad_sym")(options "")(descr ""))
+  (lib (name "GRM188F11H104ZA01")(type "KiCad")(uri "${KIPRJMOD}/library/symbols/GRM188F11H104ZA01.kicad_sym")(options "")(descr ""))
+  (lib (name "GRM188R61E475KE11D")(type "KiCad")(uri "${KIPRJMOD}/library/symbols/GRM188R61E475KE11D.kicad_sym")(options "")(descr ""))
+  (lib (name "ADUM3160BRWZ-RL")(type "KiCad")(uri "${KIPRJMOD}/library/symbols/ADUM3160BRWZ-RL.kicad_sym")(options "")(descr ""))
 )

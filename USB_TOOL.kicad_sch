@@ -5,6 +5,398 @@
 	(uuid "232069e4-b86e-45a3-b9aa-f0b54358ce0d")
 	(paper "A4")
 	(lib_symbols
+		(symbol "ADUM3160BRWZ-RL:ADUM3160BRWZ-RL"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 14.732 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "USB isolatar"
+				(at 0 12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm"
+				(at -0.762 -17.526 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ADuM3160.pdf"
+				(at -3.048 -16.256 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "usb isolator"
+				(at -3.81 -17.018 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "product" "ADUM3160BRWZ-RL"
+				(at -3.048 -16.256 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "digikey" "ADUM3160BRWZ-RLCT-ND"
+				(at -3.048 -16.256 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "ADUM3160BRWZ-RL_1_1"
+				(rectangle
+					(start -8.89 11.43)
+					(end 8.89 -11.43)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 10.16) (xy -1.27 -10.16)
+					)
+					(stroke
+						(width 0)
+						(type dash)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 10.16) (xy 1.27 -10.16)
+					)
+					(stroke
+						(width 0)
+						(type dash)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at -11.43 8.89 0)
+					(length 2.54)
+					(name "VBUS1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -11.43 6.35 0)
+					(length 2.54)
+					(name "GND1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -11.43 3.81 0)
+					(length 2.54)
+					(name "VDD1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -11.43 1.27 0)
+					(length 2.54)
+					(name "PDEN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -11.43 -1.27 0)
+					(length 2.54)
+					(name "SPU"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -11.43 -3.81 0)
+					(length 2.54)
+					(name "UD-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -11.43 -6.35 0)
+					(length 2.54)
+					(name "UD+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -11.43 -8.89 0)
+					(length 2.54)
+					(name "GND1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 11.43 8.89 180)
+					(length 2.54)
+					(name "VBUS2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 11.43 6.35 180)
+					(length 2.54)
+					(name "GND2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 11.43 3.81 180)
+					(length 2.54)
+					(name "VDD2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 11.43 1.27 180)
+					(length 2.54)
+					(name "SPD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 11.43 -1.27 180)
+					(length 2.54)
+					(name "PIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 11.43 -3.81 180)
+					(length 2.54)
+					(name "DD-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 11.43 -6.35 180)
+					(length 2.54)
+					(name "DD+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 11.43 -8.89 180)
+					(length 2.54)
+					(name "GND2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "AM3DS-0505SH30LPZ:AM3DS-0505SH30LPZ"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -80,6 +472,30 @@
 					)
 					(fill
 						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.54) (xy -1.27 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type dash)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 1.27 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type dash)
+					)
+					(fill
+						(type none)
 					)
 				)
 				(pin power_out line
@@ -419,6 +835,137 @@
 				)
 			)
 			(symbol "C1808X102K402T_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "CL21B105KBFNNNE:CL21B105KBFNNNE"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 4.318 1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1uF"
+				(at 4.572 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+				(at 0.254 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL21B105KBFNNNE_Spec.pdf"
+				(at 0.254 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "capacitor 1uF 50V"
+				(at 0.254 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "product" "CL21B105KBFNNNE"
+				(at 0.254 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "digikey" "1276-1029-1-ND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CL21B105KBFNNNE_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "CL21B105KBFNNNE_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 2.794)
@@ -1012,6 +1559,268 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "GRM188F11H104ZA01:GRM188F11H104ZA01"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 5.334 1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "0.1uF"
+				(at 5.588 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+				(at -0.508 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/JPN/GRM188F11H104ZA01-01.pdf"
+				(at -0.762 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "capacitor 50Vdc 0.1uF"
+				(at -0.762 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "product" "GRM188F11H104ZA01"
+				(at 0.254 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "digikey" "none"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GRM188F11H104ZA01_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GRM188F11H104ZA01_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "GRM188R61E475KE11D:GRM188R61E475KE11D"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 5.08 1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "4.7uF"
+				(at 5.08 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+				(at -0.254 -11.176 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R61E475KE11-01.pdf"
+				(at -0.254 -11.176 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "4.7uF 25V X5R"
+				(at -0.254 -11.176 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "product" "GRM188R61E475KE11D"
+				(at -0.254 -11.176 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "digikey" "490-7203-1-ND"
+				(at -0.254 -11.176 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GRM188R61E475KE11D_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GRM188R61E475KE11D_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "GSPTS003907:GSPTS003907"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1322,6 +2131,160 @@
 			(embedded_fonts no)
 		)
 	)
+	(junction
+		(at 171.45 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2003d55e-fa02-4706-b355-1c8b66067135")
+	)
+	(junction
+		(at 139.7 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4565ec60-2a76-48a8-a764-8475306ba7b7")
+	)
+	(junction
+		(at 139.7 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "94d2bc92-6ea1-4b86-873f-0912a69c8b52")
+	)
+	(junction
+		(at 151.13 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e40bd069-fdd8-4938-b28a-e7dcac648525")
+	)
+	(wire
+		(pts
+			(xy 157.48 63.5) (xy 151.13 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1226e269-c231-40e2-ae49-8a2e38ee14ff")
+	)
+	(wire
+		(pts
+			(xy 171.45 52.07) (xy 171.45 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "344a6216-7690-4979-96f7-7a6ec50b43d9")
+	)
+	(wire
+		(pts
+			(xy 171.45 57.15) (xy 180.34 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fbcbb28-a867-4197-b34f-979d34dbbfe0")
+	)
+	(wire
+		(pts
+			(xy 127 57.15) (xy 139.7 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69a8550e-65ce-441e-9462-791e4c8abaf7")
+	)
+	(wire
+		(pts
+			(xy 151.13 57.15) (xy 151.13 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b298ff0-6d73-4b0a-ae67-bf4666be2aa0")
+	)
+	(wire
+		(pts
+			(xy 151.13 63.5) (xy 151.13 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8913f7d5-1e61-485e-a515-87c2e1e0b94a")
+	)
+	(wire
+		(pts
+			(xy 139.7 57.15) (xy 151.13 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89505ecb-d5c6-4e80-a9c1-a7f0f7c8d779")
+	)
+	(wire
+		(pts
+			(xy 137.16 49.53) (xy 139.7 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ae08334-3f1b-4753-8787-952ccd0cf3db")
+	)
+	(wire
+		(pts
+			(xy 139.7 49.53) (xy 151.13 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d730a0e-0270-486f-b6d5-c7b0aefcb32e")
+	)
+	(wire
+		(pts
+			(xy 127 49.53) (xy 129.54 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ef9aff7-ef18-4a0f-ab58-be5e12e40a7a")
+	)
+	(wire
+		(pts
+			(xy 171.45 63.5) (xy 171.45 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bde31ba3-409b-4c3f-990d-b2a9c9a0336b")
+	)
+	(wire
+		(pts
+			(xy 165.1 63.5) (xy 171.45 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c01f1cf0-5041-465d-a250-c04fe8c29e16")
+	)
+	(wire
+		(pts
+			(xy 171.45 49.53) (xy 180.34 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb6873e1-d80e-4dde-9ef5-58b0814e9373")
+	)
 	(symbol
 		(lib_id "ESP32-C3-WROOM-02-N4:ESP32-C3-WROOM-02-N4")
 		(at 95.25 69.85 0)
@@ -1461,7 +2424,7 @@
 	)
 	(symbol
 		(lib_id "AM3DS-0505SH30LPZ:AM3DS-0505SH30LPZ")
-		(at 149.86 52.07 0)
+		(at 161.29 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1470,7 +2433,7 @@
 		(fields_autoplaced yes)
 		(uuid "26879783-1451-4f6e-8f69-5bb4588dd30c")
 		(property "Reference" "U3"
-			(at 149.86 43.18 0)
+			(at 161.29 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1478,7 +2441,7 @@
 			)
 		)
 		(property "Value" "5V isolated DC/DC"
-			(at 149.86 45.72 0)
+			(at 161.29 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1486,7 +2449,7 @@
 			)
 		)
 		(property "Footprint" "AM3DS-0505SH30LPZ:AM3DS-0505SH30LPZ"
-			(at 149.098 63.246 0)
+			(at 160.528 61.976 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1495,7 +2458,7 @@
 			)
 		)
 		(property "Datasheet" "https://aimtec.com/site/Aimtec/files/Datasheet/HighResolution/AM3DS-LPZ.pdf"
-			(at 149.098 63.246 0)
+			(at 160.528 61.976 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1504,7 +2467,7 @@
 			)
 		)
 		(property "Description" "isolated 5V output 4.5~5.5V input 3kV"
-			(at 149.098 63.246 0)
+			(at 160.528 61.976 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1513,7 +2476,7 @@
 			)
 		)
 		(property "product" "AM3DS-0505SH30LPZ"
-			(at 149.098 63.246 0)
+			(at 160.528 61.976 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1522,7 +2485,7 @@
 			)
 		)
 		(property "digikey" "5245-AM3DS-0505SH30LPZ-ND"
-			(at 149.098 63.246 0)
+			(at 160.528 61.976 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1552,8 +2515,96 @@
 		)
 	)
 	(symbol
+		(lib_id "GRM188F11H104ZA01:GRM188F11H104ZA01")
+		(at 69.85 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2746edd8-51ab-48c1-9203-938b73593cca")
+		(property "Reference" "C8"
+			(at 73.66 71.1199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 73.66 73.6599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 69.342 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/JPN/GRM188F11H104ZA01-01.pdf"
+			(at 69.088 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "capacitor 50Vdc 0.1uF"
+			(at 69.088 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "product" "GRM188F11H104ZA01"
+			(at 70.104 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey" "none"
+			(at 69.85 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e0e73d5d-47eb-4fe5-9b7d-d5c4370b1111")
+		)
+		(pin "2"
+			(uuid "4b36cd2b-004a-4eaf-8da3-de679c16e78a")
+		)
+		(instances
+			(project "USB_TOOL"
+				(path "/232069e4-b86e-45a3-b9aa-f0b54358ce0d"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "WIP322512A-6R8MLDG:WIP322512A-6R8MLDG")
-		(at 161.29 77.47 90)
+		(at 133.35 49.53 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1562,7 +2613,7 @@
 		(fields_autoplaced yes)
 		(uuid "3fab8d0e-f47a-4f7c-9fc0-567b7813aa72")
 		(property "Reference" "L1"
-			(at 161.29 72.39 90)
+			(at 133.35 44.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1570,7 +2621,7 @@
 			)
 		)
 		(property "Value" "6.8 uF"
-			(at 161.29 74.93 90)
+			(at 133.35 46.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1578,7 +2629,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_1210_3225Metric"
-			(at 166.878 78.994 0)
+			(at 138.938 51.054 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1587,7 +2638,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5561/WIP322512A%20Series.pdf"
-			(at 166.878 78.994 0)
+			(at 138.938 51.054 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1596,7 +2647,7 @@
 			)
 		)
 		(property "Description" "6.8 uF 1.2A 210mOhm"
-			(at 166.878 78.994 0)
+			(at 138.938 51.054 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1605,7 +2656,7 @@
 			)
 		)
 		(property "product" "WIP322512A-6R8MLDG"
-			(at 166.878 78.994 0)
+			(at 138.938 51.054 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1614,7 +2665,7 @@
 			)
 		)
 		(property "digikey" "3526-WIP322512A-6R8MLDGCT-ND"
-			(at 166.878 78.994 0)
+			(at 138.938 51.054 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1639,7 +2690,7 @@
 	)
 	(symbol
 		(lib_id "GSPTS003907:GSPTS003907")
-		(at 125.73 52.07 0)
+		(at 127 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1648,7 +2699,7 @@
 		(fields_autoplaced yes)
 		(uuid "458a11a4-7395-4a51-ad3a-69ea49b57bba")
 		(property "Reference" "SW1"
-			(at 125.73 48.26 0)
+			(at 127 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1656,7 +2707,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 125.73 52.07 0)
+			(at 127 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1665,7 +2716,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_THT:SW_PUSH_1P1T_6x3.5mm_H4.3_APEM_MJTP1243"
-			(at 125.73 58.166 0)
+			(at 127 87.376 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1674,7 +2725,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ckswitches.com/media/2779/pts636.pdf"
-			(at 125.73 58.166 0)
+			(at 127 87.376 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1683,7 +2734,7 @@
 			)
 		)
 		(property "Description" "push switch 12v 50mA"
-			(at 125.476 58.166 0)
+			(at 126.746 87.376 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1692,7 +2743,7 @@
 			)
 		)
 		(property "product" "GSPTS003907"
-			(at 125.476 58.166 0)
+			(at 126.746 87.376 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1701,7 +2752,7 @@
 			)
 		)
 		(property "digikey" "CKN12304-ND"
-			(at 125.476 58.166 0)
+			(at 126.746 87.376 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1726,7 +2777,7 @@
 	)
 	(symbol
 		(lib_id "CL31B106KAHNNNE:CL31B106KAHNNNE")
-		(at 152.4 66.04 0)
+		(at 180.34 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1735,7 +2786,7 @@
 		(fields_autoplaced yes)
 		(uuid "480b6a3d-7942-4be0-a1b9-3382fa237224")
 		(property "Reference" "C1"
-			(at 156.21 64.7699 0)
+			(at 184.15 52.0699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1744,7 +2795,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 156.21 67.3099 0)
+			(at 184.15 54.6099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1753,7 +2804,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 152.146 66.04 0)
+			(at 180.086 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1762,7 +2813,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/658/CL31B106KAHNNNE_Spec.pdf"
-			(at 152.146 66.04 0)
+			(at 180.086 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1771,7 +2822,7 @@
 			)
 		)
 		(property "Description" "10uF 25V X7R"
-			(at 152.654 65.786 0)
+			(at 180.594 53.086 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1780,7 +2831,7 @@
 			)
 		)
 		(property "product" "CL31B106KAHNNNE"
-			(at 152.146 66.04 0)
+			(at 180.086 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1789,7 +2840,7 @@
 			)
 		)
 		(property "digikey" "1276-1804-1-ND"
-			(at 152.146 66.04 0)
+			(at 180.086 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1813,8 +2864,312 @@
 		)
 	)
 	(symbol
+		(lib_id "ADUM3160BRWZ-RL:ADUM3160BRWZ-RL")
+		(at 162.56 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5d5809e3-40ba-455c-81af-c369df1ac068")
+		(property "Reference" "U4"
+			(at 162.56 10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "USB isolatar"
+			(at 162.56 12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm"
+			(at 161.798 44.196 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ADuM3160.pdf"
+			(at 159.512 42.926 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "usb isolator"
+			(at 158.75 43.688 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "product" "ADUM3160BRWZ-RL"
+			(at 159.512 42.926 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey" "ADUM3160BRWZ-RLCT-ND"
+			(at 159.512 42.926 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "27c2b3c3-49d1-4abb-8578-cc708f89a7d5")
+		)
+		(pin "15"
+			(uuid "724576d6-596e-41c8-89a0-00ccf585f36a")
+		)
+		(pin "6"
+			(uuid "dd3a0d4b-28cf-48c8-9515-36ebf9648da5")
+		)
+		(pin "2"
+			(uuid "ba8b4879-3c35-4743-8f3a-2c4e2a1c7064")
+		)
+		(pin "7"
+			(uuid "5eaee5df-560e-456b-93bb-15ab0589127e")
+		)
+		(pin "16"
+			(uuid "720b783e-b3c3-4cf0-b7f0-febc0beec3fb")
+		)
+		(pin "3"
+			(uuid "aa679cf6-f415-4bcf-a5ba-5e2b6786c3ab")
+		)
+		(pin "14"
+			(uuid "60d70f5a-d7cb-4a70-9288-a454565e2e55")
+		)
+		(pin "1"
+			(uuid "358df1ff-d663-4264-aa5e-daa737ac03de")
+		)
+		(pin "5"
+			(uuid "ff322843-bbce-4aa0-9614-3fda2fe8ae03")
+		)
+		(pin "8"
+			(uuid "04e23608-1e25-49c5-ad77-d1e1e772e5e2")
+		)
+		(pin "12"
+			(uuid "0df2f701-21c3-4d65-8dfa-84d119961fae")
+		)
+		(pin "10"
+			(uuid "2469bea9-ad7f-41bf-aff9-a7f50b0b1835")
+		)
+		(pin "11"
+			(uuid "396b400b-3d1f-4d9d-a838-f7686e19960b")
+		)
+		(pin "9"
+			(uuid "ad3de950-1bd1-4304-aece-37878bcf3600")
+		)
+		(pin "13"
+			(uuid "43bf220f-e4b4-453a-88ab-f319ca3c3374")
+		)
+		(instances
+			(project ""
+				(path "/232069e4-b86e-45a3-b9aa-f0b54358ce0d"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "GRM188R61E475KE11D:GRM188R61E475KE11D")
+		(at 139.7 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "63c5e792-f449-4b43-adbb-ab25d6da7587")
+		(property "Reference" "C3"
+			(at 143.51 52.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7uF"
+			(at 143.51 54.6099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 139.446 64.516 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R61E475KE11-01.pdf"
+			(at 139.446 64.516 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4.7uF 25V X5R"
+			(at 139.446 64.516 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "product" "GRM188R61E475KE11D"
+			(at 139.446 64.516 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey" "490-7203-1-ND"
+			(at 139.446 64.516 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "26cdd866-5dd9-42e9-ae01-67422ec64d18")
+		)
+		(pin "2"
+			(uuid "8532027b-d02c-40dd-874c-ae910677b207")
+		)
+		(instances
+			(project ""
+				(path "/232069e4-b86e-45a3-b9aa-f0b54358ce0d"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "GRM188R61E475KE11D:GRM188R61E475KE11D")
+		(at 127 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "66f40635-2aa3-420d-b6d0-99cdab2e6ed4")
+		(property "Reference" "C4"
+			(at 130.81 52.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7uF"
+			(at 130.81 54.6099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 126.746 64.516 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R61E475KE11-01.pdf"
+			(at 126.746 64.516 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4.7uF 25V X5R"
+			(at 126.746 64.516 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "product" "GRM188R61E475KE11D"
+			(at 126.746 64.516 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey" "490-7203-1-ND"
+			(at 126.746 64.516 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eac5cbc1-cb1b-4207-8849-8c84e0623c20")
+		)
+		(pin "2"
+			(uuid "9e7da49e-4fef-4a45-aa8c-6db7fd126b94")
+		)
+		(instances
+			(project "USB_TOOL"
+				(path "/232069e4-b86e-45a3-b9aa-f0b54358ce0d"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "GSPTS003907:GSPTS003907")
-		(at 125.73 59.69 0)
+		(at 127 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1823,7 +3178,7 @@
 		(fields_autoplaced yes)
 		(uuid "6b4eae90-7c9f-49e3-97ab-c12a5344e132")
 		(property "Reference" "SW2"
-			(at 125.73 55.88 0)
+			(at 127 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1831,7 +3186,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 125.73 59.69 0)
+			(at 127 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1840,7 +3195,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_THT:SW_PUSH_1P1T_6x3.5mm_H4.3_APEM_MJTP1243"
-			(at 125.73 65.786 0)
+			(at 127 94.996 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1849,7 +3204,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ckswitches.com/media/2779/pts636.pdf"
-			(at 125.73 65.786 0)
+			(at 127 94.996 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1858,7 +3213,7 @@
 			)
 		)
 		(property "Description" "push switch 12v 50mA"
-			(at 125.476 65.786 0)
+			(at 126.746 94.996 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1867,7 +3222,7 @@
 			)
 		)
 		(property "product" "GSPTS003907"
-			(at 125.476 65.786 0)
+			(at 126.746 94.996 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1876,7 +3231,7 @@
 			)
 		)
 		(property "digikey" "CKN12304-ND"
-			(at 125.476 65.786 0)
+			(at 126.746 94.996 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1900,8 +3255,184 @@
 		)
 	)
 	(symbol
+		(lib_id "CL21B105KBFNNNE:CL21B105KBFNNNE")
+		(at 189.23 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a930237b-42b7-43ee-b525-47be754f5d3f")
+		(property "Reference" "C7"
+			(at 193.04 87.6299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 193.04 90.1699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 189.484 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL21B105KBFNNNE_Spec.pdf"
+			(at 189.484 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "capacitor 1uF 50V"
+			(at 189.484 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "product" "CL21B105KBFNNNE"
+			(at 189.484 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey" "1276-1029-1-ND"
+			(at 189.23 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9bd3c767-4af0-4c7a-96bc-c8f3ce895ee1")
+		)
+		(pin "2"
+			(uuid "295a124c-107b-4e93-9f56-396a4189fd24")
+		)
+		(instances
+			(project "USB_TOOL"
+				(path "/232069e4-b86e-45a3-b9aa-f0b54358ce0d"
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CL21B105KBFNNNE:CL21B105KBFNNNE")
+		(at 152.4 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bd82048b-77e9-428c-870f-ada2392dce4c")
+		(property "Reference" "C6"
+			(at 156.21 87.6299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 156.21 90.1699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 152.654 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL21B105KBFNNNE_Spec.pdf"
+			(at 152.654 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "capacitor 1uF 50V"
+			(at 152.654 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "product" "CL21B105KBFNNNE"
+			(at 152.654 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey" "1276-1029-1-ND"
+			(at 152.4 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a4a88e9a-6160-499f-ac2b-8f93efbc54cb")
+		)
+		(pin "2"
+			(uuid "83a37b68-864e-48d9-bb44-5cc4f0104308")
+		)
+		(instances
+			(project "USB_TOOL"
+				(path "/232069e4-b86e-45a3-b9aa-f0b54358ce0d"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "C1808X102K402T:C1808X102K402T")
-		(at 165.1 66.04 0)
+		(at 161.29 63.5 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1910,25 +3441,23 @@
 		(fields_autoplaced yes)
 		(uuid "e05877fe-03ee-4745-aca8-192827edcef4")
 		(property "Reference" "C2"
-			(at 168.91 64.7699 0)
+			(at 161.29 55.88 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "1nF"
-			(at 168.91 67.3099 0)
+			(at 161.29 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1808_4520Metric"
-			(at 165.1 66.04 0)
+			(at 161.29 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1937,7 +3466,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.holystonecaps.com/PDF/201612051329150.2017%20HVC%20Series.pdf"
-			(at 165.1 66.04 0)
+			(at 161.29 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1946,7 +3475,7 @@
 			)
 		)
 		(property "Description" "1nF 4KV X7R"
-			(at 165.1 66.04 0)
+			(at 161.29 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1955,7 +3484,7 @@
 			)
 		)
 		(property "product" "C1808X102K402T"
-			(at 165.1 66.04 0)
+			(at 161.29 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1964,7 +3493,7 @@
 			)
 		)
 		(property "digikey" "4587-C1808X102K402TCT-ND"
-			(at 165.1 66.04 0)
+			(at 161.29 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1989,7 +3518,7 @@
 	)
 	(symbol
 		(lib_id "AP7366EA-33W5-7:AP7366EA-33W5-7")
-		(at 137.16 76.2 0)
+		(at 171.45 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1998,7 +3527,7 @@
 		(fields_autoplaced yes)
 		(uuid "e86a0d1e-48f5-4373-ab50-25f843fd9820")
 		(property "Reference" "U2"
-			(at 137.16 68.58 0)
+			(at 171.45 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2006,7 +3535,7 @@
 			)
 		)
 		(property "Value" "3.3V Regurator"
-			(at 137.16 71.12 0)
+			(at 171.45 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2014,7 +3543,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-			(at 136.144 82.55 0)
+			(at 170.434 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2023,7 +3552,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP7366EA.pdf"
-			(at 136.144 82.55 0)
+			(at 170.434 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2032,7 +3561,7 @@
 			)
 		)
 		(property "Description" "3.3V 600mA 300mV dropout"
-			(at 138.43 86.868 0)
+			(at 172.72 97.028 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2041,7 +3570,7 @@
 			)
 		)
 		(property "product" "AP7366EA-33W5-7"
-			(at 137.414 84.074 0)
+			(at 171.704 94.234 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2050,7 +3579,7 @@
 			)
 		)
 		(property "digikey" "31-AP7366EA-33W5-7CT-ND"
-			(at 139.446 83.058 0)
+			(at 173.736 93.218 0)
 			(effects
 				(font
 					(size 1.27 1.27)
