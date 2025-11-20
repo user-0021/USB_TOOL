@@ -19,4 +19,7 @@
   (lib (name "MUSB-5BF01AS")(type "KiCad")(uri "${KIPRJMOD}/library/symbols/MUSB-5BF01AS.kicad_sym")(options "")(descr ""))
   (lib (name "S04B-PASK-2")(type "KiCad")(uri "${KIPRJMOD}/library/symbols/S04B-PASK-2.kicad_sym")(options "")(descr ""))
   (lib (name "S02B-PASK-2")(type "KiCad")(uri "${KIPRJMOD}/library/symbols/S02B-PASK-2.kicad_sym")(options "")(descr ""))
+  (lib (name "B1911PG--20D000514U1930")(type "KiCad")(uri "${KIPRJMOD}/library/symbols/B1911PG--20D000514U1930.kicad_sym")(options "")(descr ""))
+  (lib (name "B1911UD--20D001014U1930")(type "KiCad")(uri "${KIPRJMOD}/library/symbols/B1911UD--20D001014U1930.kicad_sym")(options "")(descr ""))
+  (lib (name "B1931UY--20D000114U1930")(type "KiCad")(uri "${KIPRJMOD}/library/symbols/B1931UY--20D000114U1930.kicad_sym")(options "")(descr ""))
 )
