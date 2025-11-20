@@ -14,7 +14,7 @@
 				)
 			)
 		)
-		(property "Value" "6.8 uF"
+		(property "Value" "6.8 uH"
 			(at 4.064 -0.762 0)
 			(effects
 				(font
@@ -40,7 +40,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "6.8 uF 1.2A 210mOhm"
+		(property "Description" "6.8 uH 1.2A 210mOhm"
 			(at -1.524 -5.588 0)
 			(effects
 				(font
