@@ -22,4 +22,5 @@
   (lib (name "B1911PG--20D000514U1930")(type "KiCad")(uri "${KIPRJMOD}/library/symbols/B1911PG--20D000514U1930.kicad_sym")(options "")(descr ""))
   (lib (name "B1911UD--20D001014U1930")(type "KiCad")(uri "${KIPRJMOD}/library/symbols/B1911UD--20D001014U1930.kicad_sym")(options "")(descr ""))
   (lib (name "B1931UY--20D000114U1930")(type "KiCad")(uri "${KIPRJMOD}/library/symbols/B1931UY--20D000114U1930.kicad_sym")(options "")(descr ""))
+  (lib (name "ATA6561-GAQW-N")(type "KiCad")(uri "${KIPRJMOD}/library/symbols/ATA6561-GAQW-N.kicad_sym")(options "")(descr ""))
 )
