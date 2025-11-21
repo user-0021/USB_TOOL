@@ -533,7 +533,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "Gerber",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -560,10 +560,10 @@
       "exclude_dnp": false,
       "fields_ordered": [
         {
-          "group_by": true,
+          "group_by": false,
           "label": "Reference",
           "name": "Reference",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -614,7 +614,7 @@
           "show": false
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "digikey",
           "name": "digikey",
           "show": true
@@ -634,7 +634,7 @@
       ],
       "filter_string": "",
       "group_symbols": true,
-      "include_excluded_from_bom": true,
+      "include_excluded_from_bom": false,
       "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
